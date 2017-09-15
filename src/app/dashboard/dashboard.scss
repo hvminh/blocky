@@ -134,6 +134,30 @@ md-whiteframe {
     }
 }
 
+.tb-widget-stepControl {
+    background-color: #2196f3;
+    color: #ffffff;
+    .iconSize {
+        height: 39px;
+    }
+}
+
+.tb-widget-stepControl-template {
+    .valueColor {
+        color: white;
+        font-size: 40px;
+    }
+    .valueSize {
+        height: 70px;
+    }
+    .iconSize {
+        &:focus {
+            outline: none;
+            border: 0;
+        }
+    }
+}
+
 .tb-widget-value-display {
     background-color: #2196f3;
     color: #ffffff;
